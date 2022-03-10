@@ -84,7 +84,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     }
     
     func locationManager(_ manager: CLLocationManager, didExitRegion region: CLRegion) {
-        fireNotification(id: region.identifier, notificationText: "Exited from \(region.identifier) region", didEnter: false)
+//        fireNotification(id: region.identifier, notificationText: "Exited from \(region.identifier) region", didEnter: false)
     }
     
     //MARK: notification
