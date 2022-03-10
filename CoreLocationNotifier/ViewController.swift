@@ -1,9 +1,9 @@
 //
 //  ViewController.swift
-//  Core Location
+//  CoreLocationNotifier
 //
-//  Created by Matthew Newill on 08/08/2018.
-//  Copyright © 2018 DevFright. All rights reserved.
+//  Created by Wender Patrick on 09/03/2022.
+//  Copyright © 2022 outrowender. All rights reserved.
 //
 
 import UIKit
@@ -173,7 +173,6 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     
     
     @IBAction func permissionButtonAction(_ sender: Any) {
-        print("action called")
         UIApplication.shared.open(URL(string: UIApplication.openSettingsURLString)!, options: [:], completionHandler: nil)
     }
 }

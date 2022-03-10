@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Core Location.xcodeproj">
+      location = "self:CoreLocationNotifier.xcodeproj">
    </FileRef>
 </Workspace>
